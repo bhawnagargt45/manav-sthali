@@ -1,0 +1,75 @@
+.transition-fade {
+	opacity: 1;
+	transition: 500ms;
+}
+
+html.is-animating.transition-fade{
+	opacity: 0;
+}
+
+
+html.is-leaving .transition-fade {
+  opacity: 0;
+  transform: translateX(0);
+}
+
+body{
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.main-text{
+	width :1000px;
+}
+
+.menu ul li {
+	width: 50px;
+}
+
+.menu ul {
+	list-style: none;
+}
+
+.marquee{
+width: 80vw;
+height: 20vh;
+color: rgb(255,0 ,0 );
+justify-content: center;
+align-items: center;
+}
+
+.marquee-content {
+	list-style: none;
+	display: flex;
+	animation: scroll;
+	animation: scrolling 10s linear infinite;
+	justify-content: center;
+	align-items: center;
+}
+
+.marquee-content li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	width: 20vw;
+	flex-shrink: 0;
+	font-size: 5rem;
+	white-space: nowrap;
+
+}
+
+@keyframes scrolling{
+	0% {transform: translateX(80vw);}
+	100% {transform: translateX(-180vw);}
+

@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+  <link rel="stylesheet" type="text/css" href="style_2.css">
+ </head>
+ <body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">The 2050 Website</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="videoplayback_2.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>The 2050 Website </h2> 
+      <h3>This is the website of 2050</h3>
+      <p>This website shows the future...</p>
+    </div>
+    <ul class="social">
+      <li><a href="https://www.facebook.com/Manav-Sthali-School-449177511842655"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="happeningsOf2050.html">HAPPENINGS OF 2050</a></li>
+    </ul>
+  </div>
+
+  <script>
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+  </script>
+</body>
+  </html>

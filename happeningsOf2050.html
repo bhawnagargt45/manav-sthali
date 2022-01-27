@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style_3.css">
+	<title>Happenings</title>
+</head>
+<body>
+
+		<section class="toggler">
+			<ul class="navigator">
+				<div class="toggle">
+					
+				</div>
+			</ul>	
+		</section>
+		<div class="menu">
+		    <ul>
+		      <li><a href="pg_2.html">HOME</a></li>
+		    </ul>
+		</div>
+		<video src="videoplayback_3.mp4" class="h" muted loop autoplay></video>
+		<section class="showcase">
+
+			<video src="videoplayback_3.mp4" muted loop autoplay></video>
+			<div class="overlay"></div>
+				<div class="row_x">
+						<div class="happenings_">
+							<img src="happenings_pic.png">
+						</div>
+						<div class="column">
+							<div class="image">
+								<img class="image__img" src="robot_dr.png" alt="a">
+
+								<div class="image__overlay image__overlay--blur">
+									<div class="image__title">ROBOTS</div>
+									<p class="image__description">
+									The Robots will replace doctors in hospitals.
+									</p>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="column">
+							<div class="image">
+								<img class="image__img" src="teleport_bru.png" alt="b">
+
+								<div class="image__overlay image__overlay--blur">
+									<div class="image__title">TELEPORTATION</div>
+									<p class="image__description">
+									Teleportation techniques will be engineered.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="column">
+							<div class="image">
+								<img class="image__img" src="boyEqualGirl.png" alt="c">
+
+								<div class="image__overlay image__overlay--blur">
+									<div class="image__title">GENDER EQUALITY</div>
+									<p class="image__description">
+									Even the Smallest bit of Gender Inequality will be finished.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="column">
+							<div class="image">
+								<img class="image__img" src="heart.png" alt="d">
+
+								<div class="image__overlay image__overlay--blur">
+									<div class="image__title">MECHANICAL ORGANS</div>
+									<p class="image__description">
+									By the future, mechanical organs of the human body will be available.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="column">
+							<div class="image">
+								<img class="image__img" src="nuclear.png" alt="e">
+								<div class="image__overlay image__overlay--blur">
+									<div class="image__title">DANGEROUS WEAPONS</div>
+									<p class="image__description">
+									More Dangerous Weapons will be produced.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="column">
+							<div class="image">
+								<img class="image__img" src="robot_police.png" alt="f">
+
+								<div class="image__overlay image__overlay--blur">
+									<div class="image__title">ROBOT SECURITY</div>
+									<p class="image__description">
+									In the future, robot cops will be used for patrolling as well as for the safety of areas.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="column">
+							<div class="image">
+								<img class="image__img" src="pollution.png" alt="g">
+
+								<div class="image__overlay image__overlay--blur">
+									<div class="image__title">POLLUTION</div>
+									<p class="image__description">
+									The future will see the Earth getting severly air polluted.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+					
+	</section>
+
+	<div class="toggle"></div>
+
+	<script>
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+  </script>
+</body>
+</html>
